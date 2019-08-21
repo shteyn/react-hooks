@@ -25,6 +25,7 @@ class ClassCounter extends Component {
     const { count } = this.state;
     return (
       <div>
+        <h2>Class Component</h2>
         <button onClick={this.incrementCount}>Count {count}</button>
         <button onClick={this.clearCount}>Clear count</button>
       </div>
